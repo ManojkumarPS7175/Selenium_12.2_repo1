@@ -59,7 +59,7 @@ public class BaseClass {
 	@AfterMethod
 	public void Logout() {
 		HomePage hPage=new HomePage();
-		hPage.getLogoutLink().click();
+		
 	}
 	
 	@AfterClass
