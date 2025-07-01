@@ -1,3 +1,5 @@
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -7,7 +9,7 @@ public class launchBroswer {
 		// TODO Auto-generated method stub
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		drivar.manage.timesOut.implicitlywait(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
 	}
 
