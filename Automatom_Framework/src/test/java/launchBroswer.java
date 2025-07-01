@@ -7,6 +7,7 @@ public class launchBroswer {
 		// TODO Auto-generated method stub
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
+		drivar.manage.timesOut.implicitlywait(Duration.ofSeconds(20));
 
 	}
 
